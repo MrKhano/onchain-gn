@@ -1,0 +1,26 @@
+# 🌙 Onchain GN (Celo Mainnet)
+
+A minimalist contract to say “GN” directly on-chain on [Celo](https://celo.org).
+
+## 🚀 Contract details
+
+- **Name:** OnchainGN
+- **Network:** Celo Mainnet  
+- **Address:** [`0xFaFA48Ed2102A663223d2b0E35Bd5cDCaeD8Bd67`](https://celoscan.io/address/0xFaFA48Ed2102A663223d2b0E35Bd5cDCaeD8Bd67)  
+- **License:** MIT
+- **Compiler:** Solidity v0.8.24+commit.e11b9ed9
+
+## 🧠 Description
+
+This contract allows anyone to publish a “GN” message on-chain.  
+Each message is stored and emits a `NewGN` event with:
+- the author's address  
+- the timestamp  
+- the message
+
+### 📜 Main function
+
+```solidity
+function postGN(string calldata message) external
+
+Translated with DeepL.com (free version)
